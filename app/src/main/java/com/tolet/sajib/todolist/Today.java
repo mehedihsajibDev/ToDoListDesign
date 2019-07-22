@@ -33,7 +33,7 @@ private LinearLayout linearLayout;
         linearLayout.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
-               Intent intent=new Intent(getActivity(),TaskActivity.class);
+               Intent intent=new Intent(getActivity(),AddTask.class);
                startActivity(intent);
                //Toast.makeText(getContext(), "hi", Toast.LENGTH_SHORT).show();
            }
